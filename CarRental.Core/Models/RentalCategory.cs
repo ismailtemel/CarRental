@@ -9,5 +9,6 @@ namespace CarRental.Core.Models
         public string Name { get; set; }
 
         public ICollection<Car> Cars { get; set; }
+        public User User { get; set; }
     }
 }

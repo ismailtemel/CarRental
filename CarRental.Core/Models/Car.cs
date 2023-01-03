@@ -23,5 +23,7 @@ namespace CarRental.Core.Models
         public int RentalCategoryId { get; set; }
 
         public RentalCategory RentalCategory { get; set; }
+
+        public User User { get; set; }
     }
 }
