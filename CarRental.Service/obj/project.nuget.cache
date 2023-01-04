@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bs6tTTGABWBkPNi6NGHYIbRjJ2JW8tb1AdynOWI0rsxQLm+Qf7E7uNX5XlpIaOau88DTkXJ4t+wsJFLNqj8ICQ==",
+  "dgSpecHash": "w45vcwLWd3J+sksp0E4JmR2/uh6EDtjDOXdiOO/2iEIXJi8X7u5Av0pkK5Ydd7er3KQ0mctYsKwyiYFhPRzN9w==",
   "success": true,
   "projectFilePath": "D:\\CarRental\\CarRental.Service\\CarRental.Service.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.1\\microsoft.entityframeworkcore.design.7.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.1\\microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.1\\microsoft.entityframeworkcore.sqlserver.7.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.1\\microsoft.entityframeworkcore.tools.7.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

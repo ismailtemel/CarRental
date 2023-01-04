@@ -1,4 +1,8 @@
+using CarRental.Core.Repositories;
+using CarRental.Core.UnitOfWork;
 using CarRental.Repository;
+using CarRental.Repository.Repositories;
+using CarRental.Repository.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -20,7 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
+var services = new ServiceCollection();
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
     x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>
