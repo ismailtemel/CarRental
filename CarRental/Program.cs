@@ -3,6 +3,7 @@ using CarRental.Core.UnitOfWork;
 using CarRental.Repository;
 using CarRental.Repository.Repositories;
 using CarRental.Repository.UnitOfWork;
+using CarRental.Service.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -15,6 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
