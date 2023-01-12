@@ -10,6 +10,5 @@ namespace CarRental.Core.Models
 
         public ICollection<Car>? Cars { get; set; }
 
-        public User? User { get; set; }
     }
 }

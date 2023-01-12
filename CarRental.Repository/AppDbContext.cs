@@ -15,15 +15,12 @@ namespace CarRental.Repository
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-
         public DbSet<Car> Cars { get; set; }
         public DbSet<RentalCategory> RentalCategories { get; set; }
-        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Car>().Property(x=>x.RentalPrice).HasColumnType("decimal(18, 2)");
-
+            
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -1,3 +1,6 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using CarRental.API.Modules;
 using CarRental.Core.Repositories;
 using CarRental.Core.UnitOfWork;
 using CarRental.Repository;
@@ -26,6 +29,11 @@ builder.Services.AddDbContext<AppDbContext>(x =>
     });
 });
 
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+#region AutoFac DI
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new ServiceModule()));
+#endregion
 
 var app = builder.Build();
 

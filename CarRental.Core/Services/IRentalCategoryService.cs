@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarRental.Core.Services
 {
-    public interface IRentalCategory : IService<RentalCategory>
+    public interface IRentalCategoryService : IService<RentalCategory>
     {
     }
 }

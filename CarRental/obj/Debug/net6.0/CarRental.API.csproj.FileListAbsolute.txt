@@ -91,3 +91,7 @@ D:\CarRental\CarRental\obj\Debug\net6.0\refint\CarRental.API.dll
 D:\CarRental\CarRental\obj\Debug\net6.0\CarRental.API.pdb
 D:\CarRental\CarRental\obj\Debug\net6.0\CarRental.API.genruntimeconfig.cache
 D:\CarRental\CarRental\obj\Debug\net6.0\ref\CarRental.API.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\Autofac.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\AutoMapper.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
