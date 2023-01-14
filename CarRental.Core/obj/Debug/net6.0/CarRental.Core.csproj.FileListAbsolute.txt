@@ -1,5 +1,4 @@
 D:\CarRental\CarRental.Core\bin\Debug\net6.0\CarRental.Core.deps.json
-D:\CarRental\CarRental.Core\bin\Debug\net6.0\CarRental.Core.runtimeconfig.json
 D:\CarRental\CarRental.Core\bin\Debug\net6.0\CarRental.Core.dll
 D:\CarRental\CarRental.Core\bin\Debug\net6.0\CarRental.Core.pdb
 D:\CarRental\CarRental.Core\obj\Debug\net6.0\CarRental.Core.csproj.AssemblyReference.cache
@@ -10,5 +9,4 @@ D:\CarRental\CarRental.Core\obj\Debug\net6.0\CarRental.Core.csproj.CoreCompileIn
 D:\CarRental\CarRental.Core\obj\Debug\net6.0\CarRental.Core.dll
 D:\CarRental\CarRental.Core\obj\Debug\net6.0\refint\CarRental.Core.dll
 D:\CarRental\CarRental.Core\obj\Debug\net6.0\CarRental.Core.pdb
-D:\CarRental\CarRental.Core\obj\Debug\net6.0\CarRental.Core.genruntimeconfig.cache
 D:\CarRental\CarRental.Core\obj\Debug\net6.0\ref\CarRental.Core.dll

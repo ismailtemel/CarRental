@@ -1,14 +1,21 @@
 ﻿using CarRental.Core.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace CarRental.API.Controllers
 {
-    public class RentalCategoryController : Controller
+    public class RentalCategoryController : CustomBaseController
     {
-        public IActionResult Index()
+        private readonly IRentalCategoryService _rentalCategoryService;
+
+        public RentalCategoryController(IRentalCategoryService rentalCategoryService)
         {
-            return View();
+            _rentalCategoryService = rentalCategoryService;
+        }
+
+        [HttpGet("[action]/{rentalCategoryId}")]
+        public async Task<IActionResult> GetSingleRentalCategoryByWithCar(int rentalCategoryId)
+        {
+            return CreateActionResult(await _rentalCategoryService.GetSingleRentalCategoryByIdWithProductAsync(rentalCategoryId));
         }
     }
 }

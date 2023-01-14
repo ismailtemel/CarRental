@@ -95,3 +95,6 @@ D:\CarRental\CarRental\bin\Debug\net6.0\Autofac.dll
 D:\CarRental\CarRental\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
 D:\CarRental\CarRental\bin\Debug\net6.0\AutoMapper.dll
 D:\CarRental\CarRental\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\FluentValidation.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\CarRental\CarRental\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

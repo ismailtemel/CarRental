@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace CarRental.Core.Models
+﻿namespace CarRental.Core.Models
 {
     public class Car
     {

@@ -1,10 +1,5 @@
 ﻿using CarRental.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CarRental.Repository.Repositories
 {
@@ -26,7 +21,7 @@ namespace CarRental.Repository.Repositories
 
         public IQueryable<T> GetAll()
         {
-           return _dbSet.AsNoTracking().AsQueryable();
+            return _dbSet.AsNoTracking().AsQueryable();
         }
 
         public async Task<T> GetByIdAsync(int id)

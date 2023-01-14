@@ -1,11 +1,7 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using CarRental.API.Modules;
-using CarRental.Core.Repositories;
-using CarRental.Core.UnitOfWork;
 using CarRental.Repository;
-using CarRental.Repository.Repositories;
-using CarRental.Repository.UnitOfWork;
 using CarRental.Service.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;

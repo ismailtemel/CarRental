@@ -1,10 +1,6 @@
 ﻿using CarRental.Core.Models;
 using CarRental.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Repository.Repositories
 {
@@ -12,6 +8,11 @@ namespace CarRental.Repository.Repositories
     {
         public RentalCategoryRepository(AppDbContext context) : base(context)
         {
+        }
+
+        public async Task<RentalCategory> GetSingleRentalCategoryByIdWithCarAsync(int rentalCategoryId)
+        {
+            return await _context.RentalCategories.Include(x => x.Cars).Where(x => x.Id == rentalCategoryId).SingleOrDefaultAsync();
         }
     }
 }

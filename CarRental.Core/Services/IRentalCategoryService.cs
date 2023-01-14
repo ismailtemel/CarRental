@@ -1,13 +1,10 @@
-﻿using CarRental.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CarRental.Core.DTOs;
+using CarRental.Core.Models;
 
 namespace CarRental.Core.Services
 {
     public interface IRentalCategoryService : IService<RentalCategory>
     {
+        public Task<CustomResponseDto<RentalCategoryWithCarDto>> GetSingleRentalCategoryByIdWithProductAsync(int rentalCategoryId);
     }
 }
