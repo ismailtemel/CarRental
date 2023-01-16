@@ -10,6 +10,9 @@ namespace CarRental.Service.Mapping
         {
             CreateMap<Car, CarDto>().ReverseMap();
             CreateMap<RentalCategory, RentalCategoryDto>().ReverseMap();
+            CreateMap<CarUpdateDto, Car>();
+            CreateMap<Car, CarWithRentalCategoryDto>();
+            CreateMap<RentalCategory, RentalCategoryWithCarDto>();
         }
     }
 }
