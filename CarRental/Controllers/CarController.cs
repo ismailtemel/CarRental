@@ -28,8 +28,8 @@ namespace CarRental.API.Controllers
 
         // GET /api/products/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id) 
-        { 
+        public async Task<IActionResult> GetById(int id)
+        {
             var car = await _carService.GetByIdAsync(id);
             var carDtos = _mapper.Map<CarDto>(car);
             return CreateActionResult(CustomResponseDto<CarDto>.Success(200, carDtos));
@@ -40,7 +40,7 @@ namespace CarRental.API.Controllers
         {
             var cars = await _carService.AddAsync(_mapper.Map<Car>(carDto));
             var carDtos = _mapper.Map<CarDto>(cars);
-            return CreateActionResult(CustomResponseDto<CarDto>.Success(201,carDtos));
+            return CreateActionResult(CustomResponseDto<CarDto>.Success(201, carDtos));
         }
 
         [HttpPut]
