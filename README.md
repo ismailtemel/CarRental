@@ -7,5 +7,6 @@
 - .Net Core 6
 - MSSQL
 - Entity Framework Core
+- AutoMapper
 - Fluent Validation
 - Autofac
